@@ -1,6 +1,7 @@
 .nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 45px;
 }
 
 .mid-section{
@@ -22,21 +23,20 @@
     padding-top: 90px;
 }
 
-.hero-section> div> h2{
+.hero-section> div> h2 {
     color: #4d4d4d;
     font-size: 40px;
     font-weight: bolder;
 
 
-.DotIg{
-    display: block;
+    .DotIg {
+        display: block;
+    }
 }
 
-.Our-Client> div>h2{
+.Our-Client{
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 40px;
-    color:#000000;
-}
+    flex-direction: column;
+
 }
