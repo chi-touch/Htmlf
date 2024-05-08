@@ -36,7 +36,16 @@
 
 .Our-Client{
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+
+
+    element.style {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
